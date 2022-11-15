@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('Assets/Background.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+}
+.box1{
+    background-image: url('Assets/Pattern.png');
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(16, 102, 214);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+}
+.para{
+    color: hsl(0deg,0%,80%);
+}
+.box2{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 9px;
+    border: 1px solid hsl(223deg,16%,83%);
+}
+input::placeholder{
+    color: hsl(223deg,16%,83%);
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(220deg,89%,54%);
+    color: hsl(224deg,87%,94%);
+}
+
+.para1 {
+    text-align: center;
+    padding: 5px;
+    color: hsl(0deg,0%,80%);
+}
+.profile img {
+    position: relative;
+    left: -100px;
+    top: 30px;
+}
+.name{
+    position: relative;
+    top: -15px;
+}
+.profile p {
+   color: hsl(0deg,0%,80%);
+}
+.test {
+    color: hsl(0deg,0%,57%);
+}
